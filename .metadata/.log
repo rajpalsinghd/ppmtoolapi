@@ -1344,3 +1344,15 @@ javax.net.ssl.SSLException: No PSK available. Unable to resume.
 	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:590)
 	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-10 00:21:24.856
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RkBOvabU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-10 00:21:24.929
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.RkBOvabU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-10 00:21:24.941
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-10 00:21:24.958
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RkBOvabU => OK

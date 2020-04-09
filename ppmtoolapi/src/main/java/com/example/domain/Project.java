@@ -16,11 +16,26 @@ public class Project {
 	public Long getId() {
 		return id;
 	}
+	public Project() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public void setId(Long id) {
 		this.id = id;
 	}
 	public String getProjectName() {
 		return projectName;
+	}
+	public Project(Long id, String projectName, String projectIdentifier, String description, Date start_date,
+			Date end_date, Date created_at) {
+		super();
+		this.id = id;
+		this.projectName = projectName;
+		this.projectIdentifier = projectIdentifier;
+		this.description = description;
+		this.start_date = start_date;
+		this.end_date = end_date;
+		this.created_at = created_at;
 	}
 	public void setProjectName(String projectName) {
 		this.projectName = projectName;
